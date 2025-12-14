@@ -17,5 +17,8 @@ instance_type = "t2.micro"
 key_name = "Vishal"
 subnet_id = "subnet-0efa95655268209d2"
 
+lifecycle {
+  create_before_destroy = true
+}
   
 }
